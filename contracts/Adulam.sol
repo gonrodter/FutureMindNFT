@@ -5,7 +5,7 @@ import "./ERC721.sol";
 import "./ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract FutureMind is ERC721Enumerable, Ownable {
+contract Adulam is ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     mapping(string => uint8) public existingURIs;
